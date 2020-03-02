@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Título</title>
+  <meta charset="utf-8" />
+</head>
+<body>
+	<form>
+  <!-- campos do formulario -->
+	</form>
+	<form accept-charset="utf-8"></form>
+	<!-- AUTOCOMPLETE -->
+	<form autocomplete="on">
+ 	 <input type="text" name="email">
+	</form>
+	<!-- ACTION -->
+	<form action="http://www.nosso-servidor.com.br/cadastro/usuario.php"></form>
+	<!-- METHOD -->
+	<form action="http://www.nosso-servidor.com.br/cadastro/usuario.php" method="post"></form>
+	<!-- ENCTYPE -->
+	<form action="http://www.nosso-servidor.com.br/cadastro/usuario.php" method="post" enctype="multipart/form-data"></form>
+	<!-- NOVALITE -->
+	<form novalidate></form>
+	<!-- FORMULARIO -->
+	<form>
+	  <label for="fname">First name:</label><br>
+	  <input type="text" id="fname" name="fname" required="fname" placeholder="name"><br>
+	  <label for="lname">Last name:</label><br>
+	  <input type="text" id="lname" name="lname" required="fname" placeholder="name"><br>
+	  <hr>
+	   <label for="nome">Username:</label><br>
+	  <input type="text" id="nome" name="nome"><br>
+	  <label for="pwd">Password:</label><br>
+	  <input type="password" id="pwd" name="pwd">
+	  <hr>
+	 	 <label for="email"> Email:</label>
+  		<input type="email" id="email" name="email">
+  		<hr>
+  		<label for="gsearch">Search Google:</label>
+  		<input type="search" id="gsearch" name="gsearch">
+  		<!-- RADIO BUTTON -->
+	  		 <input type="radio" name="sexo" checked="checked" /> Homem
+	 		 <input type="radio" name="sexo" /> Mulher
+	 		 <hr>
+	 	<!-- CHECKBOX -->
+		 <h2>Escolha quantas cores você desejar.</h2>
+		<form>
+		  <input type="checkbox" name="cor1" /> Azul
+		  <input type="checkbox" name="cor2" /> Vermelho
+		  <input type="checkbox" name="cor3" /> Amarelo
+		</form> 
+		<hr>
+		<fieldset>
+		  <legend>Cadastro</legend>
+		  Nome: <input type="text"><br>
+		  Email: <input type="text"><br>
+		</fieldset>
+		<hr>
+		<form autocomplete="on">
+		  <label for="email">Email</label>
+		  <input type="text" id="email">
+		</form>
+
+
+	</form>
+</body>
+</html>
